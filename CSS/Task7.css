@@ -1,0 +1,62 @@
+.navbar{
+    background-color: lightblue;
+    width: 20%;
+    height: 50%;
+    border-radius: 2px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: none;
+    list-style: none;
+    padding: 23px 9px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    margin: 15px 20px;
+    font-size: 20px;
+    padding: 20px 20px 20px;
+    width: 40%;
+}
+
+.navbar li a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+
+
+
+
+.verbar{
+    background-color: lightblue;
+    width: 42%;
+    height: 12%;
+    border-radius: 2px;
+}
+
+.verbar ul{
+    overflow: auto;
+}
+
+.verbar li{
+    float: left;
+    list-style: none;
+    padding: 15px 15px 15px;
+}
+
+.verbar li a{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 20px;
+    padding: 15px 15px 15px;
+}
+
+.verbar li a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
