@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form
+    </title>
+    <h1>
+        <center> FORM </center>
+    </h1>
+</head>
+
+<body>
+    <style>
+        .c1 {
+            width: 309px;
+            height: 37px;
+            padding: 10px;
+            margin: 20px;
+            display: inline-block;
+            position: absolute;
+            top: 454px;
+            left: 444px;
+        }
+
+        .box1 {
+            background-color: rgb(152, 93, 140);
+            width: 412px;
+            height: 378px;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .box2 {
+            background-color: rgba(197, 13, 96, 0.486);
+            width: 755px;
+            height: 443px;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+    <form>
+        <center>
+            <div class="box2">
+                <div class="box1">
+                    <table cellspacing="0" cellpadding="10">
+                        <tr>
+                            <td> <label for="FN"> Name: </label> </td>
+                            <td> <input type="text" name="FN" placeholder="Your Name"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Username"> Email: </label> </td>
+                            <td> <input type="email" name="Username" placeholder="Your email"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Password"> Password: </label> </td>
+                            <td> <input type="password" name="Password"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="phn"> Phone Number: </label></td>
+                            <td> <input type="text" name="phn"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Gender"> Gender: </label> </td>
+                            <td> <input type="radio" id="Male" name="brand" value="Gender" /> Male
+                                <input type="radio" id="Female" name="brand" value="Gender" /> Female
+                                <input type="radio" id="Others" name="brand" value="Gender" /> Others
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="lang">Language</label> </td>
+
+                            <td> <select name="lang" id="lang">
+                                    <option value="Select a Language">Select a Language</option>
+                                    <option value="English">English</option>
+                                    <option value="Hindi">Hindi</option>
+                                    <option value="Marathi">Marathi</option>
+                                    <option value="Gujarati">Gujarati</option>
+                                    <option value="Bhojpuri">Bhojpuri</option>
+                                    <option value="Telugu">Telugu</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="zipcode"> Zipcode </label>
+                            </td>
+                            <td> <input type="text"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="about"> About: </label> </td>
+                            <td> <textarea maxlength="0"> </textarea></td>
+                        </tr>
+                        <div>
+                            <button type="button" class="c1"> <b> Register </b> </button>
+                        </div>
+                </div>
+            </div>
+            </table>
+        </center>
+    </form>
+</body>
+
+</html>
